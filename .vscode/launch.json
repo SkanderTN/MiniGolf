@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "main.ui.Main",
+            "projectName": "Mini_Golf_e26d5990"
+        },
+        {
+            "type": "java",
             "name": "testBalle",
             "request": "launch",
             "mainClass": "main.test.testBalle",

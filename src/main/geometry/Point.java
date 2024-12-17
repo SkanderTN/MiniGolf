@@ -9,7 +9,6 @@ public class Point {
         this.y = y;
     }
 
-    // Getters and Setters
     public double getX() {
         return x;
     }
@@ -26,8 +25,7 @@ public class Point {
         this.y = y;
     }
 
-    // Utility methods
-    public double distanceTo(Point other) {
+    public double distanceEntre(Point other) {
         return Math.sqrt(Math.pow(other.x - this.x, 2) + Math.pow(other.y - this.y, 2));
     }
 }
